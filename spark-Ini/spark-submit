@@ -1,0 +1,8 @@
+#https://jaceklaskowski.gitbooks.io/mastering-apache-spark/spark-sql-SparkSession.html
+
+/home/wizord/Documentos/Programas/spark-2.2.0-bin-hadoop2.7/bin/spark-submit \
+	--class  es.david.principal.MainCars \
+    --master local[3] \
+    --name "Cars" \
+	/home/wizord/workspaceScala/spark-Ini/target/scala-2.11/spark-ini_2.11-0.1.jar
+
